@@ -1,0 +1,64 @@
+#autoshield-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(10, 10, 20, 0.85);
+  backdrop-filter: blur(8px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999999;
+}
+
+.autoshield-box {
+  background: #0f172a;
+  border: 2px solid red;
+  padding: 25px;
+  border-radius: 15px;
+  width: 350px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 0 25px red;
+}
+
+.autoshield-box h2 {
+  color: #ff4d4d;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#safeExit {
+  background: #22c55e;
+  color: white;
+}
+
+#proceed {
+  background: #ef4444;
+  color: white;
+}
+
+/* SAFE badge */
+#autoshield-safe {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: #22c55e;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+  z-index: 999999;
+}
