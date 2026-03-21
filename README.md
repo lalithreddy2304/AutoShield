@@ -55,12 +55,6 @@ Prevent scams at the moment they happen, not after.
 
 ---
 
-## Demo
-
-Add your demo video or GIF here.
-
----
-
 ## Tech Stack
 
 - HTML  
@@ -91,22 +85,3 @@ Add your demo video or GIF here.
 - Lightweight and fast  
 
 ---
-
-## Future Improvements
-
-- AI-based phishing detection  
-- Domain reputation APIs  
-- Behavior-based risk scoring  
-- Chrome Web Store deployment  
-
----
-
-## Feedback
-
-Feedback and suggestions are welcome.
-
----
-
-## License
-
-MIT License
