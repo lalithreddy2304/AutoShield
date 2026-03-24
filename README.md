@@ -1,87 +1,65 @@
-# AutoShield
+#  AutoShield – Smart Payment Safety Extension
 
-AutoShield is a Chrome extension designed to protect users from phishing and scam websites in real time by intervening at the moment of risky actions.
+##  Problem
 
----
-
-## Problem
-
-Most online scams do not happen because detection tools are missing.  
-They happen because users act quickly — clicking on payment links, logging in, or entering sensitive information on websites that appear legitimate.
-
-Existing solutions are largely passive:
-- They warn too late  
-- They depend on users to manually verify websites  
-- They fail at the most critical moment — when the user takes action  
+Many users unknowingly enter their payment details on fake or unsafe websites, leading to scams and financial loss.
 
 ---
 
-## Solution
+##  Solution
 
-AutoShield focuses on real-time intervention instead of passive detection.
-
-It runs directly inside the browser and monitors user interactions.  
-When a sensitive action is triggered, it evaluates the environment and determines whether it is safe or potentially harmful.
-
----
-
-## How It Works
-
-1. The extension runs in the background on all websites  
-2. It listens for sensitive actions such as:
-   - Payment clicks  
-   - Login attempts  
-   - Form submissions  
-
-3. When triggered, it evaluates:
-   - Domain trust  
-   - URL patterns  
-   - Interaction context  
-
-### Safe Environment
-- Allows the action without interruption  
-- Displays a subtle confirmation: "Secure Site Verified"  
-
-### Suspicious Environment
-- Blocks the action  
-- Displays a warning popup  
-- Explains why the environment may be unsafe  
-
----
-
-## Key Idea
-
-Prevent scams at the moment they happen, not after.
-
----
-
-## Tech Stack
-
-- HTML  
-- CSS  
-- JavaScript  
-- Chrome Extensions API  
-
----
-
-## How to Run
-
-1. Clone this repository  
-2. Open Chrome and navigate to:
-   chrome://extensions/  
-
-3. Enable Developer Mode  
-4. Click "Load Unpacked"  
-5. Select the project folder  
+**AutoShield** is a Chrome Extension that detects suspicious payment websites and alerts users in real-time — helping them stay safe while browsing.
 
 ---
 
 ## Features
 
-- Real-time scam detection  
-- Non-intrusive experience on trusted websites  
-- Immediate intervention on suspicious actions  
-- Clear explanation of potential risks  
-- Lightweight and fast  
+* Detects unsafe or suspicious payment pages
+*  Real-time warning system
+*  Silent monitoring on trusted websites
+*  Lightweight & fast
+
+---
+
+## Tech Stack
+
+* JavaScript
+* HTML & CSS
+* Chrome Extension APIs
+
+---
+
+##  How It Works
+
+* Monitors the current website URL
+* Checks for suspicious patterns or fake structures
+* Triggers a warning popup if risk is detected
+* Allows normal browsing on trusted sites
+
+---
+
+##  Demo
+
+---
+
+## Future Improvements
+
+* AI-based phishing detection
+* Database of known scam websites
+* Real-time threat intelligence
+* UI improvements
+
+---
+
+## Why This Project Matters
+
+With increasing online transactions, users need a simple way to identify unsafe websites. AutoShield provides a **practical security layer** for everyday users.
+
+---
+
+## Status
+
+ Working prototype completed
+ Actively improving
 
 ---
